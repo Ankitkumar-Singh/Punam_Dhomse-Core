@@ -1,0 +1,220 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+D:\Punam\AspCore>dotnet
+
+Usage: dotnet [options]
+Usage: dotnet [path-to-application]
+
+Options:
+  -h|--help         Display help.
+  --info            Display .NET Core information.
+  --list-sdks       Display the installed SDKs.
+  --list-runtimes   Display the installed runtimes.
+
+path-to-application:
+  The path to an application .dll file to execute.
+
+D:\Punam\AspCore>dotnet new console -n Assignmnet2
+The template "Console Application" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on Assignmnet2\Assignmnet2.csproj...
+  Restoring packages for D:\Punam\AspCore\Assignmnet2\Assignmnet2.csproj...
+  Generating MSBuild file D:\Punam\AspCore\Assignmnet2\obj\Assignmnet2.csproj.nuget.g.props.
+  Generating MSBuild file D:\Punam\AspCore\Assignmnet2\obj\Assignmnet2.csproj.nuget.g.targets.
+  Restore completed in 155.82 ms for D:\Punam\AspCore\Assignmnet2\Assignmnet2.csproj.
+
+Restore succeeded.
+
+
+D:\Punam\AspCore>dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+MSBUILD : error MSB1003: Specify a project or solution file. The current working directory does not contain a project or solution file.
+
+D:\Punam\AspCore>dotnet run
+Couldn't find a project to run. Ensure a project exists in D:\Punam\AspCore, or pass the path to the project using --project.
+
+D:\Punam\AspCore>cd Assignment2
+The system cannot find the path specified.
+
+D:\Punam\AspCore>cd Assignmnet2
+
+D:\Punam\AspCore\Assignmnet2>dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 31.45 ms for D:\Punam\AspCore\Assignmnet2\Assignmnet2.csproj.
+  Assignmnet2 -> D:\Punam\AspCore\Assignmnet2\bin\Debug\netcoreapp2.2\Assignmnet2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+D:\Punam\AspCore\Assignmnet2>dotnet run
+Hello World!
+
+D:\Punam\AspCore\Assignmnet2>
+D:\Punam\AspCore\Assignmnet2>dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 31.71 ms for D:\Punam\AspCore\Assignmnet2\Assignmnet2.csproj.
+  Assignmnet2 -> D:\Punam\AspCore\Assignmnet2\bin\Debug\netcoreapp2.2\Assignmnet2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.90
+
+D:\Punam\AspCore\Assignmnet2>dotnet run
+Enter first number: 5
+Enter second number: 9
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+1
+Addition Of Two Numbers :
+ 14
+
+Do you want to continue? 1 Yes/0 No:
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+2
+
+Subtraction Of Two Numbers : 4
+
+Do you want to continue? 1 Yes/0 No:
+
+D:\Punam\AspCore\Assignmnet2>dotnet build
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 32.56 ms for D:\Punam\AspCore\Assignmnet2\Assignmnet2.csproj.
+  Assignmnet2 -> D:\Punam\AspCore\Assignmnet2\bin\Debug\netcoreapp2.2\Assignmnet2.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.86
+
+D:\Punam\AspCore\Assignmnet2>dotnet run
+Enter first number: 5
+Enter second number: 9
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+1
+Addition Of Two Numbers :
+ 14
+
+Do you want to continue? 1 Yes/0 No:
+1
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+2
+
+Subtraction Of Two Numbers : 4
+
+Do you want to continue? 1 Yes/0 No:
+1
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+3
+
+Division Of Two Numbers : 0
+
+Do you want to continue? 1 Yes/0 No:
+1
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+4
+
+Multiplicaion Of Two Numbers : 45
+
+Do you want to continue? 1 Yes/0 No:
+1
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+5
+
+Increment Numbers : 6 10
+
+Do you want to continue? 1 Yes/0 No:
+1
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+6
+
+Decrement Numbers : 5 9
+
+Do you want to continue? 1 Yes/0 No:
+1
+1.Addition
+2.Subtraction
+3.Divsion
+4.Multiplication
+5.Increment
+6.Decrement
+7.Square
+Enter your choice
+7
+
+Square Numbers : 25
+
+Do you want to continue? 1 Yes/0 No:
+0
+
+D:\Punam\AspCore\Assignmnet2>
