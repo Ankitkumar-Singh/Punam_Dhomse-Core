@@ -12,4 +12,4 @@ Output  - In output folder
 
 ### Assignment6 Folder - Assignment 6(To perform CRUD Operations using Entity Framework)
 
-### Database Folder - Backup of Database for Assignment 6
+### Database Folder - Database.bak Backup of Database for Assignment 6
